@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Newton's Second Law",
+    "equation": "F - m * a",
+    "variables": ["F", "m", "a"],
+    "units": {"F": "N", "m": "kg", "a": "m/s²"}
+  },
+  {
+    "name": "Kinetic Energy",
+    "equation": "KE - 0.5 * m * (v**2)",
+    "variables": ["KE", "m", "v"],
+    "units": {"KE": "J", "m": "kg", "v": "m/s"}
+  },
+  {
+    "name": "Potential Energy",
+    "equation": "PE - m * 9.81 * h",
+    "variables": ["PE", "m", "h"],
+    "units": {"PE": "J", "m": "kg", "h": "m"}
+  },
+  {
+    "name": "Momentum",
+    "equation": "p - m * v",
+    "variables": ["p", "m", "v"],
+    "units": {"p": "kg·m/s", "m": "kg", "v": "m/s"}
+  },
+  {
+    "name": "Centripetal Force",
+    "equation": "Fc - (m * (v**2)) / r",
+    "variables": ["Fc", "m", "v", "r"],
+    "units": {"Fc": "N", "m": "kg", "v": "m/s", "r": "m"}
+  },
+  {
+    "name": "Hooke's Law",
+    "equation": "F - k * x",
+    "variables": ["F", "k", "x"],
+    "units": {"F": "N", "k": "N/m", "x": "m"}
+  },
+  {
+    "name": "Wave Speed",
+    "equation": "v - f * lam",
+    "variables": ["v", "f", "lam"],
+    "units": {"v": "m/s", "f": "Hz", "lam": "m"}
+  },
+  {
+    "name": "Lens Formula",
+    "equation": "(1 / f) - (1 / v) + (1 / u)",
+    "variables": ["f", "v", "u"],
+    "units": {"f": "m", "v": "m", "u": "m"}
+  },
+  {
+    "name": "Mass-Energy Equivalence",
+    "equation": "E - m * (299792458**2)",
+    "variables": ["E", "m"],
+    "units": {"E": "J", "m": "kg"}
+  }
+]

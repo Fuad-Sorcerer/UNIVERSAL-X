@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal X — Advanced Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="app-shell">
+        <aside class="sidebar">
+            <div class="brand">
+                <h1>UNIVERSAL X</h1>
+                <span>MADE BY FUAD</span>
+            </div>
+            <p class="nav-label">SUBJECTS</p>
+            <nav id="category-tabs" class="tabs"></nav>
+        </aside>
+
+        <div class="main-area">
+            <header class="top-bar">
+                <div class="search-wrapper">
+                    <span class="search-icon">⌕</span>
+                    <input type="text" id="search-box" placeholder="Search any formula in this subject...">
+                </div>
+            </header>
+
+            <main class="workspace">
+                <section class="grid-section">
+                    <div id="formula-grid" class="formula-grid"></div>
+                </section>
+
+                <aside class="calc-panel">
+                    <div class="panel-badge">ACTIVE SOLVER</div>
+                    <h2 id="active-title">Select a Formula</h2>
+                    <div id="active-equation" class="equation-box"></div>
+                    <div id="inputs"></div>
+                    <button id="calc-btn" onclick="calculate()" style="display:none;">Calculate</button>
+                    <div id="result"></div>
+                </aside>
+            </main>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

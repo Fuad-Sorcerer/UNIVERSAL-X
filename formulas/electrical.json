@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Ohm's Law",
+    "equation": "V - I * R",
+    "variables": ["V", "I", "R"],
+    "units": {"V": "V", "I": "A", "R": "Ω"}
+  },
+  {
+    "name": "Electric Power",
+    "equation": "P - V * I",
+    "variables": ["P", "V", "I"],
+    "units": {"P": "W", "V": "V", "I": "A"}
+  },
+  {
+    "name": "Inductive Reactance",
+    "equation": "XL - 2 * 3.14159 * f * L",
+    "variables": ["XL", "f", "L"],
+    "units": {"XL": "Ω", "f": "Hz", "L": "H"}
+  },
+  {
+    "name": "Capacitive Reactance",
+    "equation": "XC - 1 / (2 * 3.14159 * f * C)",
+    "variables": ["XC", "f", "C"],
+    "units": {"XC": "Ω", "f": "Hz", "C": "F"}
+  },
+  {
+    "name": "Resonant Frequency",
+    "equation": "f - 1 / (2 * 3.14159 * sqrt(L * C))",
+    "variables": ["f", "L", "C"],
+    "units": {"f": "Hz", "L": "H", "C": "F"}
+  },
+  {
+    "name": "Three-Phase Power",
+    "equation": "P - 1.732 * VL * IL * pf",
+    "variables": ["P", "VL", "IL", "pf"],
+    "units": {"P": "W", "VL": "V", "IL": "A", "pf": ""}
+  },
+  {
+    "name": "Synchronous Speed",
+    "equation": "Ns - (120 * f) / P",
+    "variables": ["Ns", "f", "P"],
+    "units": {"Ns": "RPM", "f": "Hz", "P": "poles"}
+  },
+  {
+    "name": "Transformer Turns Ratio",
+    "equation": "V1 / V2 - N1 / N2",
+    "variables": ["V1", "V2", "N1", "N2"],
+    "units": {"V1": "V", "V2": "V", "N1": "turns", "N2": "turns"}
+  },
+  {
+    "name": "RC Time Constant",
+    "equation": "tau - R * C",
+    "variables": ["tau", "R", "C"],
+    "units": {"tau": "s", "R": "Ω", "C": "F"}
+  }
+]

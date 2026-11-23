@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Mole Formula",
+    "equation": "n - m / M",
+    "variables": ["n", "m", "M"],
+    "units": {"n": "mol", "m": "g", "M": "g/mol"}
+  },
+  {
+    "name": "Number of Particles",
+    "equation": "N - n * 6.022e23",
+    "variables": ["N", "n"],
+    "units": {"N": "particles", "n": "mol"}
+  },
+  {
+    "name": "Mass Number",
+    "equation": "A - (Z + N)",
+    "variables": ["A", "Z", "N"],
+    "units": {"A": "amu", "Z": "protons", "N": "neutrons"}
+  },
+  {
+    "name": "de Broglie Wavelength",
+    "equation": "lam - 6.626e-34 / (m * v)",
+    "variables": ["lam", "m", "v"],
+    "units": {"lam": "m", "m": "kg", "v": "m/s"}
+  },
+  {
+    "name": "Planck's Quantum Formula",
+    "equation": "E - 6.626e-34 * nu",
+    "variables": ["E", "nu"],
+    "units": {"E": "J", "nu": "Hz"}
+  },
+  {
+    "name": "Bohr Radius",
+    "equation": "r - 0.529 * (n**2) / Z",
+    "variables": ["r", "n", "Z"],
+    "units": {"r": "Å", "n": "orbit", "Z": "atomic no."}
+  },
+  {
+    "name": "Bohr Energy",
+    "equation": "E + 13.6 * (Z**2) / (n**2)",
+    "variables": ["E", "Z", "n"],
+    "units": {"E": "eV", "Z": "atomic no.", "n": "orbit"}
+  },
+  {
+    "name": "Boyle's Law",
+    "equation": "P1 * V1 - P2 * V2",
+    "variables": ["P1", "V1", "P2", "V2"],
+    "units": {"P1": "Pa", "V1": "m³", "P2": "Pa", "V2": "m³"}
+  },
+  {
+    "name": "Charles's Law",
+    "equation": "V1 / T1 - V2 / T2",
+    "variables": ["V1", "T1", "V2", "T2"],
+    "units": {"V1": "L", "T1": "K", "V2": "L", "T2": "K"}
+  },
+  {
+    "name": "Gay-Lussac's Law",
+    "equation": "P1 / T1 - P2 / T2",
+    "variables": ["P1", "T1", "P2", "T2"],
+    "units": {"P1": "Pa", "T1": "K", "P2": "Pa", "T2": "K"}
+  },
+  {
+    "name": "Combined Gas Law",
+    "equation": "(P1 * V1) / T1 - (P2 * V2) / T2",
+    "variables": ["P1", "V1", "T1", "P2", "V2", "T2"],
+    "units": {"P1": "Pa", "V1": "L", "T1": "K", "P2": "Pa", "V2": "L", "T2": "K"}
+  },
+  {
+    "name": "Ideal Gas Law",
+    "equation": "P * V - n * 8.314 * T",
+    "variables": ["P", "V", "n", "T"],
+    "units": {"P": "Pa", "V": "m³", "n": "mol", "T": "K"}
+  },
+  {
+    "name": "Ideal Gas Density",
+    "equation": "d - (P * M) / (8.314 * T)",
+    "variables": ["d", "P", "M", "T"],
+    "units": {"d": "g/m³", "P": "Pa", "M": "g/mol", "T": "K"}
+  },
+  {
+    "name": "Molarity",
+    "equation": "M - n / V",
+    "variables": ["M", "n", "V"],
+    "units": {"M": "mol/L", "n": "mol", "V": "L"}
+  },
+  {
+    "name": "Molality",
+    "equation": "m - n / W",
+    "variables": ["m", "n", "W"],
+    "units": {"m": "mol/kg", "n": "mol", "W": "kg"}
+  },
+  {
+    "name": "Dilution Formula",
+    "equation": "M1 * V1 - M2 * V2",
+    "variables": ["M1", "V1", "M2", "V2"],
+    "units": {"M1": "M", "V1": "L", "M2": "M", "V2": "L"}
+  },
+  {
+    "name": "Mass Percentage",
+    "equation": "P - (ms / mt) * 100",
+    "variables": ["P", "ms", "mt"],
+    "units": {"P": "%", "ms": "g", "mt": "g"}
+  },
+  {
+    "name": "Parts Per Million (PPM)",
+    "equation": "ppm - (ms / mt) * 1e6",
+    "variables": ["ppm", "ms", "mt"],
+    "units": {"ppm": "ppm", "ms": "g", "mt": "g"}
+  }
+]

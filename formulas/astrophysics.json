@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Universal Gravitation",
+    "equation": "F - (6.674e-11 * m1 * m2) / (r**2)",
+    "variables": ["F", "m1", "m2", "r"],
+    "units": {"F": "N", "m1": "kg", "m2": "kg", "r": "m"}
+  },
+  {
+    "name": "Orbital Velocity",
+    "equation": "v - sqrt((6.674e-11 * M) / r)",
+    "variables": ["v", "M", "r"],
+    "units": {"v": "m/s", "M": "kg", "r": "m"}
+  },
+  {
+    "name": "Escape Velocity",
+    "equation": "v - sqrt((2 * 6.674e-11 * M) / r)",
+    "variables": ["v", "M", "r"],
+    "units": {"v": "m/s", "M": "kg", "r": "m"}
+  },
+  {
+    "name": "Schwarzschild Radius",
+    "equation": "Rs - (2 * 6.674e-11 * M) / (299792458**2)",
+    "variables": ["Rs", "M"],
+    "units": {"Rs": "m", "M": "kg"}
+  },
+  {
+    "name": "Stefan-Boltzmann Luminosity",
+    "equation": "L - 4 * 3.14159 * (R**2) * 5.67e-8 * (T**4)",
+    "variables": ["L", "R", "T"],
+    "units": {"L": "W", "R": "m", "T": "K"}
+  },
+  {
+    "name": "Wien's Displacement Law",
+    "equation": "lam - 0.002898 / T",
+    "variables": ["lam", "T"],
+    "units": {"lam": "m", "T": "K"}
+  },
+  {
+    "name": "Hubble's Law",
+    "equation": "v - H0 * d",
+    "variables": ["v", "H0", "d"],
+    "units": {"v": "km/s", "H0": "km/s/Mpc", "d": "Mpc"}
+  },
+  {
+    "name": "Time Dilation",
+    "equation": "t - t0 / sqrt(1 - (v**2) / (299792458**2))",
+    "variables": ["t", "t0", "v"],
+    "units": {"t": "s", "t0": "s", "v": "m/s"}
+  },
+  {
+    "name": "Planetary Surface Gravity",
+    "equation": "g - (6.674e-11 * M) / (R**2)",
+    "variables": ["g", "M", "R"],
+    "units": {"g": "m/s²", "M": "kg", "R": "m"}
+  }
+]
